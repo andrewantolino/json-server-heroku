@@ -1,16 +1,23 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
+  "users": [
+      { "id": 1, "firstName": "Andrew", "lastName": "Antolino" }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
+  "todos": [
+      { "id": 1, "body": "Learn about Javascript", "complete": false }
+  ],
+  "photoAlbums": [
+      { 
+          "id": 1,
+          "photos": [
+              { "id": 1 }
+          ]
+      }
+  ],
+  "photos": [
+      { 
+          "id": 1,
+          "url": "https://assets.epicurious.com/photos/54ad70036529d92b2c046e6b/master/pass/51187270_shoyu-ramen_1x1.jpg",
+          "description": "A delicious bowl of ramen"
+      }
   ]
 }
